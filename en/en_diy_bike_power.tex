@@ -1,0 +1,277 @@
+\documentclass{article}
+ 
+\title{DIY Bike Power}
+\author{Demand for Energy Equality}
+\date{January 2020 \\ Root source version: Version 1.1 \\ Translation version: Version 0.1}
+
+%inherited code
+\usepackage{amsmath,amsthm,amssymb,epsfig}
+\usepackage{hyperref}
+
+% imports for images
+\usepackage{caption}
+% \usepackage[demo]{graphicx}
+\usepackage{graphicx}
+% \usepackage{float}
+
+% import for resuming enumerated list
+\usepackage{enumitem}
+
+% code to remove numbering but keep the contents page filled
+\setcounter{secnumdepth}{0}
+
+\theoremstyle{definition}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{cor}[thm]{Corollary}
+\newenvironment{pf}{{\noindent\sc Proof. }}{\qed}
+
+\theoremstyle{definition}
+\newtheorem*{defn}{Definition}
+\newtheorem*{exmp}{Example}
+\newtheorem*{prob}{Problem}
+\newtheorem*{info}{Information}
+\newtheorem*{warn}{Warning}
+\newtheorem*{quest}{Question}
+\newtheorem*{blockq}{Block Quote}
+\newtheorem*{strong}{Strong}
+\newtheorem*{code}{Code}
+\newtheorem*{coderesult}{Code Result}
+
+\theoremstyle{remark}
+\newtheorem*{rem}{Remark}
+\newtheorem*{note}{Note}
+\newtheorem*{exer}{Exercise}
+
+\setlength{\oddsidemargin}{0.25 in}
+\setlength{\evensidemargin}{-0.25 in}
+\setlength{\topmargin}{-0.6 in}
+\setlength{\textwidth}{6.5 in}
+\setlength{\textheight}{8.5 in}
+\setlength{\headsep}{0.75 in}
+\setlength{\parindent}{0 in}
+\setlength{\parskip}{0.1 in}
+
+%%%%%%%
+% Some commonly used notation
+%%%%%%%
+
+\def\R{{\mathbb R}}
+\def\X{{\mathcal X}}
+\def\Y{{\mathcal Y}}
+\def\E{{\mathbb E}}
+\def\sign{{\rm sign}}
+
+% END inherited code
+
+\begin{document}
+ 
+\maketitle{}
+
+\begin{center}
+  \includegraphics[width=0.25\paperwidth]{../Images/image_0_0_(demand_energy_equality).png}
+\end{center}
+
+TODO INSERT IMAGE
+
+\vfill
+  
+\includegraphics[]{../Images/image_0_2_(license).png} \newline
+This guide is provided under a \href{https://creativecommons.org/licenses/by-sa/4.0/legalcode}{Creative Commons BY-SA} license: \newline
+Material may be freely shared and adapted under the following terms: You must give appropriate credit, provide a link to the license, and indicate if changes were made, and further distribution must be under the same license as the original.
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Preface} % (fold)
+\label{sec:preface}
+
+  \subsection*{Introduction} % (fold)
+  \label{sub:introduction}
+  
+    This PDF has taken the content of the \href{https://www.demandenergyequality.org/build-your-own-bike-generators}{"DIY Bike Power"} PDF and put them into a form which can be easily corrected, improved and translated by the community using LaTeX a markdown language for technical topics.
+
+  % subsection introduction (end)
+
+  \subsection*{Notes} % (fold)
+  \label{sub:notes}
+
+    Please note the modifications which have been made \& where you can find updates.
+
+    \begin{enumerate}
+      \item All the content of the PDF and put them into a form which can be easily corrected, improved and translated by the community using LaTeX a markdown language for technical topics.
+      \item Any updates, corrections or translations to the PDF will be available at \href{https://github.com/darigovresearch/DIY-Bike-Power}{https://github.com/darigovresearch/DIY-Bike-Power} so do return periodically to check if you have the latest version.
+      \item Modifications from the original work includes typo correction, card merging \& consistency consolidation (see the commit history for [en] for the specific changes if any).
+    \end{enumerate}
+
+    Feel free to share the PDFs and give the repository a star so more people are likely to see this work and can get the most out of it.
+
+  % subsection notes (end)
+
+  \subsubsection*{License} % (fold)
+  \label{ssub:license}
+
+    Unless otherwise specified, everything in this PDF is covered by the following licence:
+
+    \includegraphics[]{../Images/image_0_2_(license).png} \newline
+
+    This work was based on the work \textbf{\textit{DIY Bike Power}} by \href{https://www.demandenergyequality.org/}{Demand Energy Equality}, licensed under a \href{https://creativecommons.org/licenses/by-sa/4.0/legalcode}{Creative Commons BY-SA}.
+
+    To see this work in full go to \href{https://www.demandenergyequality.org/build-your-own-bike-generators}{https://www.demandenergyequality.org/build-your-own-bike-generators}
+  
+  % subsubsection license (end)
+
+% section preface (end)
+
+\newpage
+
+\section{Introduction} % (fold)
+\label{sec:introduction}
+
+  \subsection{The Demand Energy Equality project} % (fold)
+  \label{sub:the_demand_energy_equality_project}
+
+  % subsection the_demand_energy_equality_project (end)
+  
+  \subsection{Using this guide} % (fold)
+  \label{sub:using_this_guide}
+
+  % subsection using_this_guide (end)
+
+  \subsection{The design} % (fold)
+  \label{ssub:the_design}
+
+  % subsection the_design (end)
+  
+  \subsection{Disclaimer} % (fold)
+  \label{sub:disclaimer}
+
+  % subsection disclaimer (end)
+
+  \newpage  
+
+% section introduction (end)
+
+\section{Before starting} % (fold)
+\label{sec:before_starting}
+
+  \subsection{Staying safe} % (fold)
+  \label{sub:staying_safe}
+
+  % subsection staying_safe (end)
+
+  \subsection{Tools and materials} % (fold)
+  \label{sub:tools_and_materials}
+
+  % subsection tools_and_materials (end)
+
+% section before_starting (end)
+
+\newpage
+
+\section{Building a Simple Bike Generator} % (fold)
+\label{sec:building_a_simple_bike_generator}
+
+  \subsection{People} % (fold)
+  \label{sub:people}
+  
+  % subsection people (end)
+
+  \subsection{A Bicycle} % (fold)
+  \label{sub:a_bicycle}
+  
+    \subsubsection{Drive system and gears} % (fold)
+    \label{ssub:drive_system_and_gears}
+    
+    % subsubsection drive_system_and_gears (end)
+  
+  % subsection a_bicycle (end)
+  \subsection{Motors} % (fold)
+  \label{sub:motors}
+  
+  % subsection motors (end)
+
+  \subsection{Rollers} % (fold)
+  \label{sub:rollers}
+  
+  % subsection rollers (end)
+
+  \subsection{Training stands} % (fold)
+  \label{sub:training_stands}
+  
+  % subsection training_stands (end)
+
+  \subsection{Voltage control} % (fold)
+  \label{sub:voltage_control}
+
+    \subsubsection{Voltage Regulator Option} % (fold)
+    \label{ssub:voltage_regulator_option}
+    
+    % subsubsection voltage_regulator_option (end)
+
+    \subsubsection{Lead Acid Battery Option} % (fold)
+    \label{ssub:lead_acid_battery_option}
+    
+    % subsubsection lead_acid_battery_option (end)
+
+  % subsection voltage_control (end)
+
+% section building_a_simple_bike_generator (end)
+
+\section{Assembling the bike generator} % (fold)
+\label{sec:assembling_the_bike_generator}
+
+% section assembling_the_bike_generator (end)
+
+\section{Using multiple bike generators} % (fold)
+\label{sec:using_multiple_bike_generators}
+
+  \subsection{An example of a multi-generator system distribution board} % (fold)
+  \label{sub:an_example_of_a_multi_generator_system_distribution_board}
+  
+  % subsection an_example_of_a_multi_generator_system_distribution_board (end)
+
+% section using_multiple_bike_generators_ (end)
+
+\section{Resources} % (fold)
+\label{sec:resources}
+
+  \subsection{Bike Generator Providers} % (fold)
+  \label{sub:bike_generator_providers}
+  
+  % subsection bike_generator_providers (end)
+
+  \subsection{Other Renewable Energy Resources} % (fold)
+  \label{sub:other_renewable_energy_resources}
+  
+  % subsection other_renewable_energy_resources (end)
+
+  \subsection{Off grid system component suppliers} % (fold)
+  \label{sub:off_grid_system_component_suppliers}
+  
+  % subsection off_grid_system_component_suppliers (end)
+
+% section resources (end)
+
+\newpage
+
+\section{Appendix} % (fold)
+\label{sec:appendix}
+
+  \subsection{Equipment List} % (fold)
+  \label{sub:equipment_list}
+  
+  % subsection equipment_list (end)
+
+  \subsection{Using a Multimeter} % (fold)
+  \label{sub:using_a_multimeter}
+  
+  % subsection using_a_multimeter (end)
+
+% section appendix (end)
+
+\end{document}
