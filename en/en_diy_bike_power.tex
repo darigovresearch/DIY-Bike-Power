@@ -17,6 +17,9 @@
 % import for resuming enumerated list
 \usepackage{enumitem}
 
+% colour import
+\usepackage[dvipsnames]{xcolor}
+
 % code to remove numbering but keep the contents page filled
 \setcounter{secnumdepth}{0}
 
@@ -52,6 +55,13 @@
 \setlength{\headsep}{0.75 in}
 \setlength{\parindent}{0 in}
 \setlength{\parskip}{0.1 in}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=NavyBlue,
+    pdfborderstyle={/S/U/W 1}
+}
 
 %%%%%%%
 % Some commonly used notation
@@ -95,7 +105,7 @@ Material may be freely shared and adapted under the following terms: You must gi
   \subsection*{Introduction} % (fold)
   \label{sub:introduction}
   
-    This PDF has taken the content of the \href{https://www.demandenergyequality.org/build-your-own-bike-generators}{"DIY Bike Power"} PDF and put them into a form which can be easily corrected, improved and translated by the community using LaTeX a markdown language for technical topics.
+    This PDF has taken the content of the \href{https://www.demandenergyequality.org/build-your-own-bike-generators}{\underline{"DIY Bike Power"}} PDF and put them into a form which can be easily corrected, improved and translated by the community using LaTeX a markdown language for technical topics.
 
   % subsection introduction (end)
 
@@ -106,7 +116,7 @@ Material may be freely shared and adapted under the following terms: You must gi
 
     \begin{enumerate}
       \item All the content of the PDF and put them into a form which can be easily corrected, improved and translated by the community using LaTeX a markdown language for technical topics.
-      \item Any updates, corrections or translations to the PDF will be available at \href{https://github.com/darigovresearch/DIY-Bike-Power}{https://github.com/darigovresearch/DIY-Bike-Power} so do return periodically to check if you have the latest version.
+      \item Any updates, corrections or translations to the PDF will be available at \href{https://github.com/darigovresearch/DIY-Bike-Power}{\underline{https://github.com/darigovresearch/DIY-Bike-Power}} so do return periodically to check if you have the latest version.
       \item Modifications from the original work includes typo correction, card merging \& consistency consolidation (see the commit history for [en] for the specific changes if any).
     \end{enumerate}
 
@@ -121,9 +131,9 @@ Material may be freely shared and adapted under the following terms: You must gi
 
     \includegraphics[]{../Images/image_0_2_(license).png} \newline
 
-    This work was based on the work \textbf{\textit{DIY Bike Power}} by \href{https://www.demandenergyequality.org/}{Demand Energy Equality}, licensed under a \href{https://creativecommons.org/licenses/by-sa/4.0/legalcode}{Creative Commons BY-SA}.
+    This work was based on the work \textbf{\textit{DIY Bike Power}} by \href{https://www.demandenergyequality.org/}{\underline{Demand Energy Equality}}, licensed under a \href{https://creativecommons.org/licenses/by-sa/4.0/legalcode}{\underline{Creative Commons BY-SA}}.
 
-    To see this work in full go to \href{https://www.demandenergyequality.org/build-your-own-bike-generators}{https://www.demandenergyequality.org/build-your-own-bike-generators}
+    To see this work in full go to \href{https://www.demandenergyequality.org/build-your-own-bike-generators}{\underline{https://www.demandenergyequality.org/build-your-own-bike-generators}}
   
   % subsubsection license (end)
 
@@ -137,7 +147,7 @@ Material may be freely shared and adapted under the following terms: You must gi
   \subsection{The Demand Energy Equality project} % (fold)
   \label{sub:the_demand_energy_equality_project}
 
-    Demand Energy Equality (DEE) is a UK based community energy project that seeks to provide practical energy education, relating mainly to solar generation. We are a group working for systemic change in the way energy is produced, distributed, controlled, delivered and used. These aims are within the context of rising energy inequality (in the UK, at least), rising fuel bills, climate change and the increasing cost of fossil fuel extraction. See \href{https://www.demandenergyequality.org/about/}{our website} to find out more about the project.
+    Demand Energy Equality (DEE) is a UK based community energy project that seeks to provide practical energy education, relating mainly to solar generation. We are a group working for systemic change in the way energy is produced, distributed, controlled, delivered and used. These aims are within the context of rising energy inequality (in the UK, at least), rising fuel bills, climate change and the increasing cost of fossil fuel extraction. See \href{https://www.demandenergyequality.org/about/}{\underline{our website}} to find out more about the project.
 
     Through teaching people hands-on energy skills we also aim to develop their relationship with energy, and enable them to understand it better: where it comes from, how it is used and how it relates to their demand and needs. Ultimately we aim for this to change behaviour, leading to better use of energy and overall reduced demand. Reduced energy use is an unavoidable fact of the relatively near future – far better to prepare now than be surprised later on.
 
@@ -152,9 +162,9 @@ Material may be freely shared and adapted under the following terms: You must gi
 
     This particular version reflects the most recent iteration of the bike generator design as used by DEE, but it is likely that it may evolve and expand over time. Because we occasionally review and update our content, the guide may not always be in line with the other DIY resources published by DEE, and may not exactly reflect the format of current workshops. Contact DEE if you need an update on any recent changes. 
     
-    You will find the latest version of this guide available to download from the DEE website, as and when this guide is updated, alongside our \href{https://www.demandenergyequality.org/resources/}{other guides and resources}. Be sure to read the Intro to Off Grid Energy Systems guide for an explanation of basic concepts, and detailed descriptions of charge controllers, batteries, inverters, and other components used in 12V electrical systems.
+    You will find the latest version of this guide available to download from the DEE website, as and when this guide is updated, alongside our \href{https://www.demandenergyequality.org/resources/}{\underline{other guides and resources}}. Be sure to read the Intro to Off Grid Energy Systems guide for an explanation of basic concepts, and detailed descriptions of charge controllers, batteries, inverters, and other components used in 12V electrical systems.
 
-    For a chance to gain practical experience of the material covered in this guide, please take a look at the \href{https://www.demandenergyequality.org/our-workshops/}{workshops} offered on the DEE website.
+    For a chance to gain practical experience of the material covered in this guide, please take a look at the \href{https://www.demandenergyequality.org/our-workshops/}{\underline{workshops}} offered on the DEE website.
 
     We encourage you to share the skills you learn with others through your own workshops, particularly if you are able to target and work with low-income communities. Please contact us for any support you feel you may need if you plan to do this.
 
@@ -464,7 +474,7 @@ Material may be freely shared and adapted under the following terms: You must gi
   \subsection{An example of a multi-generator system distribution board} % (fold)
   \label{sub:an_example_of_a_multi_generator_system_distribution_board}
 
-    The image to the right shows a distribution board for a bike generator system built by \href{https://www.electricpedals.com/}{Electric Pedals}.
+    The image to the right shows a distribution board for a bike generator system built by \href{https://www.electricpedals.com/}{\underline{Electric Pedals}}.
 
     It has five blue powercon inputs linked together with bus bars to connect up to five bike generators in parallel. 
 
@@ -478,7 +488,7 @@ Material may be freely shared and adapted under the following terms: You must gi
 
     A system like this can be used with unregulated generators, so the power would come directly from the motors without needing to go through a voltage converter. 
 
-    More information on the components used in this system (inverters, fuses, charge controllers, etc) can be found in our \href{https://www.demandenergyequality.org/get-started-with-offgrid}{Intro to DIY Off Grid Systems} guide.
+    More information on the components used in this system (inverters, fuses, charge controllers, etc) can be found in our \href{https://www.demandenergyequality.org/get-started-with-offgrid}{\underline{Intro to DIY Off Grid Systems}} guide.
     
     \begin{center}
       \includegraphics[width=0.35\paperwidth]{../Images/image_5_4_(example_board).png}
@@ -497,23 +507,23 @@ Material may be freely shared and adapted under the following terms: You must gi
 
   \begin{enumerate}
     \item Bike projects in London:  \newline
-      The Bike Project: \href{https://thebikeproject.co.uk/}{https://thebikeproject.co.uk/} \newline
-      Brixton Cycles Co-op: \href{http://www.brixtoncycles.co.uk/}{http://www.brixtoncycles.co.uk/} \newline
-      London Bike Kitchen: \href{https://lbk.org.uk/}{https://lbk.org.uk/} \newline
-    \item There are a number of other methods for building bike generators using car alternators or stepper motors. See \href{http://www.scienceshareware.com/}{http://www.scienceshareware.com/} \newline
-      Here’s another design that uses the weight of the motor to maintain contact between the back wheel and the roller: \href{http://www.appropedia.org/Rowan\%27s\_portable\_pedal\_power\_generator}{http://www.appropedia.org/Rowan\%27s\_portable\_pedal\_power\_generator}
-    \item Cycle powered generation: \href{http://www.stewardwood.org/resources/DIYcyclepower.htm}{http://www.stewardwood.org/resources/DIYcyclepower.htm}
-    \item How a lead acid battery works: \href{http://www.progressivedyn.com/battery_basics.html}{http://www.progressivedyn.com/battery\_basics.html}
-    \item Calculating line losses: A handy calculator to help you work out losses over distance for different thickness of wire. \href{http://www.solar-wind.co.uk/cable-sizing-DC-cables.html}{http://www.solar-wind.co.uk/cable-sizing-DC-cables.html}
+      The Bike Project: \href{https://thebikeproject.co.uk/}{\underline{https://thebikeproject.co.uk/}} \newline
+      Brixton Cycles Co-op: \href{http://www.brixtoncycles.co.uk/}{\underline{http://www.brixtoncycles.co.uk/}} \newline
+      London Bike Kitchen: \href{https://lbk.org.uk/}{\underline{https://lbk.org.uk/}} \newline
+    \item There are a number of other methods for building bike generators using car alternators or stepper motors. See \href{http://www.scienceshareware.com/}{\underline{http://www.scienceshareware.com/}} \newline
+      Here’s another design that uses the weight of the motor to maintain contact between the back wheel and the roller: \href{http://www.appropedia.org/Rowan\%27s\_portable\_pedal\_power\_generator}{\underline{http://www.appropedia.org/Rowan\%27s\_portable\_pedal\_power\_generator}}
+    \item Cycle powered generation: \href{http://www.stewardwood.org/resources/DIYcyclepower.htm}{\underline{http://www.stewardwood.org/resources/DIYcyclepower.htm}}
+    \item How a lead acid battery works: \href{http://www.progressivedyn.com/battery_basics.html}{\underline{http://www.progressivedyn.com/battery\_basics.html}}
+    \item Calculating line losses: A handy calculator to help you work out losses over distance for different thickness of wire. \href{http://www.solar-wind.co.uk/cable-sizing-DC-cables.html}{\underline{http://www.solar-wind.co.uk/cable-sizing-DC-cables.html}}
   \end{enumerate}
 
   \subsection{Bike Generator Providers} % (fold)
   \label{sub:bike_generator_providers}
   
     \begin{enumerate}[resume]
-      \item Reaction Bike Power: \href{https://bike-power.co.uk/}{https://bike-power.co.uk/}
-      \item V3 Power: \href{http://v3power.co.uk/bicycle-generators/}{http://v3power.co.uk/bicycle-generators/}
-      \item Electric Pedals: \href{https://www.electricpedals.com/bicycle-friction-generator/}{https://www.electricpedals.com/bicycle-friction-generator/}
+      \item Reaction Bike Power: \href{https://bike-power.co.uk/}{\underline{https://bike-power.co.uk/}}
+      \item V3 Power: \href{http://v3power.co.uk/bicycle-generators/}{\underline{http://v3power.co.uk/bicycle-generators/}}
+      \item Electric Pedals: \href{https://www.electricpedals.com/bicycle-friction-generator/}{\underline{https://www.electricpedals.com/bicycle-friction-generator/}}
     \end{enumerate}
   
   % subsection bike_generator_providers (end)
@@ -523,16 +533,16 @@ Material may be freely shared and adapted under the following terms: You must gi
 
     \begin{enumerate}[resume]
       \item Introduction to DIY Off Grid Energy systems: \newline
-        \href{https://www.demandenergyequality.org/get-started-with-offgrid}{https://www.demandenergyequality.org/get-started-with-offgrid}
-      \item DIY solar panels: \href{https://www.demandenergyequality.org/build-your-own-panels}{https://www.demandenergyequality.org/build-your-own-panels}
-      \item How solar cells work: \href{https://www.demandenergyequality.org/guide-to-solar-energy}{https://www.demandenergyequality.org/guide-to-solar-energy}
+        \href{https://www.demandenergyequality.org/get-started-with-offgrid}{\underline{https://www.demandenergyequality.org/get-started-with-offgrid}}
+      \item DIY solar panels: \href{https://www.demandenergyequality.org/build-your-own-panels}{\underline{https://www.demandenergyequality.org/build-your-own-panels}}
+      \item How solar cells work: \href{https://www.demandenergyequality.org/guide-to-solar-energy}{\underline{https://www.demandenergyequality.org/guide-to-solar-energy}}
       \item DIY wind turbines: \newline
-        V3 Power run courses: \href{http://v3power.co.uk/}{http://v3power.co.uk/} \newline
-        Hugh Piggott Designs: \href{http://scoraigwind.co.uk/}{http://scoraigwind.co.uk/}
-      \item DIY micro hydro:  \href{http://www.stewardwood.org/resources/hydroelectric.ghtml}{http://www.stewardwood.org/resources/hydroelectric.ghtml} \newline
-        \href{https://www.permaculture.co.uk/articles/310505923/building-your-own-renewable-energy-systems-recycled-materials}{https://www.permaculture.co.uk/articles/310505923/building-your-own-renewable-energy-systems-recycled-materials}
+        V3 Power run courses: \href{http://v3power.co.uk/}{\underline{http://v3power.co.uk/}} \newline
+        Hugh Piggott Designs: \href{http://scoraigwind.co.uk/}{\underline{http://scoraigwind.co.uk/}}
+      \item DIY micro hydro:  \href{http://www.stewardwood.org/resources/hydroelectric.ghtml}{\underline{http://www.stewardwood.org/resources/hydroelectric.ghtml}} \newline
+        \href{https://www.permaculture.co.uk/articles/310505923/building-your-own-renewable-energy-systems-recycled-materials}{\underline{https://www.permaculture.co.uk/articles/310505923/building-your-own-renewable-energy-systems-recycled-materials}}
       \item Renewable energy diagram by Merlin Howse: \newline
-        \href{http://offthegrid.org.uk/resources/renewable-energy-diagram-2.0.pdf}{http://offthegrid.org.uk/resources/renewable-energy-diagram-2.0.pdf}
+        \href{http://offthegrid.org.uk/resources/renewable-energy-diagram-2.0.pdf}{\underline{http://offthegrid.org.uk/resources/renewable-energy-diagram-2.0.pdf}}
 
     \end{enumerate}
   
@@ -542,8 +552,8 @@ Material may be freely shared and adapted under the following terms: You must gi
   \label{sub:off_grid_system_component_suppliers}
 
     \begin{enumerate}[resume]
-      \item Wind and Sun: \href{http://www.windandsun.co.uk/}{http://www.windandsun.co.uk/}
-      \item Bimble Solar: \href{http://www.bimblesolar.com/}{http://www.bimblesolar.com/}
+      \item Wind and Sun: \href{http://www.windandsun.co.uk/}{\underline{http://www.windandsun.co.uk/}}
+      \item Bimble Solar: \href{http://www.bimblesolar.com/}{\underline{http://www.bimblesolar.com/}}
     \end{enumerate}
   
   % subsection off_grid_system_component_suppliers (end)
