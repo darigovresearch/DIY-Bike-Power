@@ -17,7 +17,13 @@ If you're just looking for the content, find the relevant PDF file in your langu
 
 | Language code | Language | Title | Status | Preview | Download |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| `el`  | Greek | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/9) | [Pending Translation, want to help?](https://github.com/darigovresearch/DIY-Bike-Power/issues/9) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/9) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/9) |
 | `en`  | English  | DIY Bike Power | In progress | [here](https://github.com/darigovresearch/DIY-Bike-Power/blob/main/en/en_diy_bike_power.pdf) | [here](https://github.com/darigovresearch/DIY-Bike-Power/raw/main/en/en_diy_bike_power.pdf) |
+| `es`  | Spanish  | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/2) | [Pending Translation, want to help?](https://github.com/darigovresearch/DIY-Bike-Power/issues/2) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/2) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/2) |
+| `fr`  | French  | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/3) | [Pending Translation, want to help?](https://github.com/darigovresearch/DIY-Bike-Power/issues/3) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/3) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/3) |
+| `it`  | Italian  | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/1) | [Pending Translation, want to help?](https://github.com/darigovresearch/DIY-Bike-Power/issues/1) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/1) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/1) |
+| `ru`  | Russian  | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/10) | [Pending Translation, want to help?](https://github.com/darigovresearch/DIY-Bike-Power/issues/10) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/10) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/10) |
+| `sh`  | Serbo-Croatian  | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/4) | [Pending Translation, want to help?](https://github.com/darigovresearch/DIY-Bike-Power/issues/4) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/4) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/4) |
 
 ## Potential Improvements Yet to be Made
 1. To find a way to systematically pull the content if there are any updates from the original source in the future.
