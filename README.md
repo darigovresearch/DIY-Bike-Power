@@ -15,6 +15,8 @@ Feel free to share the PDFs and give the repository a star so more people are li
 ## Usage
 If you're just looking for the content, find the relevant PDF file in your language in the table below or by navigating the folder structure above and click the download button. If you're looking for the source it is. To build these PDFs we have been using Sublime Text with a LaTeX addon to help build it faster, better and more accurately than with other tools but you can use whatever works best for you.
 
+The original file can be previewed [here](https://github.com/darigovresearch/DIY-Bike-Power/blob/main/Original/DIY%2B12V%2BBike%2BPower%2BGuide%2Bv1.1.pdf) and downloaded [here](https://github.com/darigovresearch/DIY-Bike-Power/raw/main/Original/DIY%2B12V%2BBike%2BPower%2BGuide%2Bv1.1.pdf)
+
 | Language code | Language | Title | Status | Preview | Download |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | `el`  | Greek | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/9) | [Pending Translation, want to help?](https://github.com/darigovresearch/DIY-Bike-Power/issues/9) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/9) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/9) |
