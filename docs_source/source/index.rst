@@ -10,11 +10,11 @@ Welcome to DIY Bike Power's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   preface
+   introduction
+   before_starting
+   building_a_simple_bike_generator
+   assembling_the_bike_generator
+   using_multiple_bike_generators
+   resources
+   appendix
