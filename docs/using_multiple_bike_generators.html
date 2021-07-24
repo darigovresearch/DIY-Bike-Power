@@ -35,8 +35,32 @@
             
   <div class="section" id="using-multiple-bike-generators">
 <h1>Using multiple bike generators<a class="headerlink" href="#using-multiple-bike-generators" title="Permalink to this headline">¶</a></h1>
+<p>For loads of more than 100W, you will need to build a system that uses more than one bike generator. If multiple bike generators are being used at the same time, their power can be combined via a distribution board, which can contain all the voltage regulation and system protection components.</p>
+<p><img alt="multiple_generator_diagram" src="_images/image_5_1_(multiple_generator_diagram).png" /></p>
+<div class="section" id="cables-and-connectors">
+<h2>Cables and connectors<a class="headerlink" href="#cables-and-connectors" title="Permalink to this headline">¶</a></h2>
+<p>We use 20A Powercon connectors when connecting the bikes into either a multiple or single bike system. The connectors hold a good connection, can be easily connected and disconnected, and are simple to make yourself. You can also use XT60 connectors as a cheaper option, but they are not as robust or easy to use.</p>
+<p>It’s a good idea to get fairly thick, heavy duty wire for your power cables, especially when dealing with long cables (2m or more). Long runs of thin wire will result in significant energy losses - the smaller the wire diameter, the more it heats up when an electrical current is passed through it, and the more energy is lost. Paired (black &amp; red wires in the same sheath) 4mm 2 (or 2.5mm 2 ) core speaker cable is a good option, which results in a good looking, durable cable.</p>
+<p><img alt="connectors" src="_images/image_5_2_(connectors).png" /></p>
+</div>
+<div class="section" id="inverters">
+<h2>Inverters<a class="headerlink" href="#inverters" title="Permalink to this headline">¶</a></h2>
+<p>If you want to use AC mains powered appliances you will need to use an inverter, which will convert the 12V DC power from your bike generator(s) into 240V AC power. There are two types of inverters: a pure sine wave inverter produces a smooth wave on the AC output, while a modified (or quasi) sine wave produces a stepped square wave. Some devices may not work properly with a modified sine wave inverter.</p>
+<p>Inverters designed to work with 12V batteries will usually work with voltages between 10 and 14 volts, but will work best with a power supply with a voltage of 12-13 volts. If using an inverter, it is highly recommended that you use a large capacitor or battery to maintain a smooth, stable voltage on the power supply to the inverter.</p>
+<p><img alt="inverter" src="_images/image_5_3_(inverter).png" /></p>
 <div class="section" id="an-example-of-a-multi-generator-system-distribution-board">
-<h2>An example of a multi-generator system distribution board<a class="headerlink" href="#an-example-of-a-multi-generator-system-distribution-board" title="Permalink to this headline">¶</a></h2>
+<h3>An example of a multi-generator system distribution board<a class="headerlink" href="#an-example-of-a-multi-generator-system-distribution-board" title="Permalink to this headline">¶</a></h3>
+<p>The image to the right shows a distribution board for a bike generator system built by <a class="reference external" href="https://www.electricpedals.com/">Electric Pedals</a>.</p>
+<p>It has five blue powercon inputs linked together with bus bars to connect up to five bike generators in parallel.</p>
+<p>It uses a Maxwell supercapacitor to smooth the power output and provide some energy storage.</p>
+<p>It has a Morningstar charge controller with a large resistor acting as a dump load to regulate the voltage and protect the system against over-voltage. The inverter displays the system voltage to provide feedback to the users.</p>
+<p>The output goes via a Victron inverter connected to regular household 3-pin sockets to provide 230V AC power.</p>
+<p>Fuses from the power input and to the inverter protect the system against over-current.</p>
+<p>A system like this can be used with unregulated generators, so the power would come directly from the motors without needing to go through a voltage converter.</p>
+<p>More information on the components used in this system (inverters, fuses, charge controllers, etc) can be found in our <a class="reference external" href="https://www.demandenergyequality.org/get-started-with-offgrid">Intro to DIY Off Grid Systems</a> guide.</p>
+<p><img alt="example_board" src="_images/image_5_4_(example_board).png" /></p>
+<p><img alt="example_diagram" src="_images/image_5_5_(example_diagram).png" /></p>
+</div>
 </div>
 </div>
 
@@ -65,7 +89,8 @@
 <li class="toctree-l1"><a class="reference internal" href="building_a_simple_bike_generator.html">Building a Simple Bike Generator</a></li>
 <li class="toctree-l1"><a class="reference internal" href="assembling_the_bike_generator.html">Assembling the bike generator</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Using multiple bike generators</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#an-example-of-a-multi-generator-system-distribution-board">An example of a multi-generator system distribution board</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cables-and-connectors">Cables and connectors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#inverters">Inverters</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="resources.html">Resources</a></li>
