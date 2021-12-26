@@ -27,6 +27,8 @@ The original file can be previewed [here](https://github.com/darigovresearch/DIY
 | `ru`  | Russian  | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/10) | [Pending Translation, want to help?](https://github.com/darigovresearch/DIY-Bike-Power/issues/10) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/10) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/10) |
 | `sh`  | Serbo-Croatian  | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/4) | [Pending Translation, want to help?](https://github.com/darigovresearch/DIY-Bike-Power/issues/4) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/4) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/4) |
 
+We have also been experimenting with a [sphinx-based](https://www.sphinx-doc.org/en/master/) version [at this URL](https://darigovresearch.github.io/DIY-Bike-Power/) which may end up being easier to convert to offline pdfs & a more interactive site.
+
 ## Potential Improvements Yet to be Made
 1. To find a way to systematically pull the content if there are any updates from the original source in the future.
     - Currently this was all done manually.
