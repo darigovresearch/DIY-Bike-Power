@@ -19,6 +19,7 @@ The original file can be previewed [here](https://github.com/darigovresearch/DIY
 
 | Language code | Language | Title | Status | Preview | Download |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| `ar`  | Arabic | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/18) | [Pending Translation, want to help?](https://github.com/darigovresearch/DIY-Bike-Power/issues/18) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/18) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/18) |
 | `el`  | Greek | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/9) | [Pending Translation, want to help?](https://github.com/darigovresearch/DIY-Bike-Power/issues/9) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/9) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/9) |
 | `en`  | English  | DIY Bike Power | In progress | [here](https://github.com/darigovresearch/DIY-Bike-Power/blob/main/en/en_diy_bike_power.pdf) | [here](https://github.com/darigovresearch/DIY-Bike-Power/raw/main/en/en_diy_bike_power.pdf) |
 | `es`  | Spanish  | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/2) | [Pending Translation, want to help?](https://github.com/darigovresearch/DIY-Bike-Power/issues/2) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/2) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/2) |
@@ -26,6 +27,7 @@ The original file can be previewed [here](https://github.com/darigovresearch/DIY
 | `it`  | Italian  | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/1) | [Pending Translation, want to help?](https://github.com/darigovresearch/DIY-Bike-Power/issues/1) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/1) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/1) |
 | `ru`  | Russian  | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/10) | [Pending Translation, want to help?](https://github.com/darigovresearch/DIY-Bike-Power/issues/10) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/10) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/10) |
 | `sh`  | Serbo-Croatian  | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/4) | [Pending Translation, want to help?](https://github.com/darigovresearch/DIY-Bike-Power/issues/4) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/4) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/4) |
+| `zh`  | Chinese  | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/17) | [Pending Translation, want to help?](https://github.com/darigovresearch/DIY-Bike-Power/issues/17) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/17) | [TODO](https://github.com/darigovresearch/DIY-Bike-Power/issues/17) |
 
 We have also been experimenting with a [sphinx-based](https://www.sphinx-doc.org/en/master/) version [at this URL](https://darigovresearch.github.io/DIY-Bike-Power/) which may end up being easier to convert to offline pdfs & a more interactive site.
 
