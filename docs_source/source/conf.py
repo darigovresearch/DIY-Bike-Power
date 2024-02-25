@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'DIY Bike Power'
-copyright = '2021-2022, Demand Energy Equality'
+copyright = '2021-2024, Demand Energy Equality'
 author = 'Demand Energy Equality'
 
 # The full version, including alpha/beta/rc tags
@@ -53,3 +53,8 @@ html_theme = 'alabaster'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# confs for internationalisation
+# language = "sh"
+local_dirs = ['locale/']
+gettext_compact = False     # optional.
