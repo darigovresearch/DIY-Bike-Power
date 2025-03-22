@@ -1,18 +1,17 @@
-
 <!DOCTYPE html>
 
-<html>
+<html lang="en" data-content_root="./">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Building a Simple Bike Generator &#8212; DIY Bike Power 1.1 documentation</title>
-    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=56dcb7b8"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Assembling the bike generator" href="assembling_the_bike_generator.html" />
@@ -20,8 +19,9 @@
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
+
   
-  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+  
 
   </head><body>
   
@@ -33,35 +33,35 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="building-a-simple-bike-generator">
-<h1>Building a Simple Bike Generator<a class="headerlink" href="#building-a-simple-bike-generator" title="Permalink to this headline">¶</a></h1>
+  <section id="building-a-simple-bike-generator">
+<h1>Building a Simple Bike Generator<a class="headerlink" href="#building-a-simple-bike-generator" title="Link to this heading">¶</a></h1>
 <p>Cycle powered generation works by converting the energy supplied by muscles in the human body into electricity. Cycle powered generators use electric DC motors to perform this conversion. Direct drive motors that usually spin when connected to an electrical power supply will have the potential to generate electricity when spun by some other source of power. If you use motors with the right torque and revolution ratio they can be an ideal match up to a person cycling at a steady pace.</p>
 <p>Building and using your own generator requires a number of items. A person, a bicycle, a way of supporting your bicycle off the ground, a motor that can be turned by the bike’s drive system, and a way to regulate the voltage. Each of these parts needs to work efficiently in order to comfortably generate between 50 and 100 watts of usable power from your generator. We will cover each of the parts and how to assemble them into a simple bike generator in this D.I.Y. Guide.</p>
-<div class="section" id="people">
-<h2>People<a class="headerlink" href="#people" title="Permalink to this headline">¶</a></h2>
+<section id="people">
+<h2>People<a class="headerlink" href="#people" title="Link to this heading">¶</a></h2>
 <p>At the end of the day if there are no motivated cyclists you cannot produce electricity. An average person can generate between 40 and 80 watts over extended periods (relatively fit people should be able to produce over 200W in short bursts). You should consider the pedalling speed - most people are most comfortable pedalling at a rate of around 60-80 RPM.</p>
-</div>
-<div class="section" id="a-bicycle">
-<h2>A Bicycle<a class="headerlink" href="#a-bicycle" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="a-bicycle">
+<h2>A Bicycle<a class="headerlink" href="#a-bicycle" title="Link to this heading">¶</a></h2>
 <p>Of the different types of bicycles used by people to get around, road bikes are most suitable type of bike for generating electricity because they have smooth ‘slick’ tires. Slick tyres help keep friction and noise to a minimum. Road bikes are designed to be efficient on smooth roads. You will generally get more watts from a road bike than a town bike (designed for comfort) or a mountain bike (designed for bumps and jumps).</p>
-<div class="section" id="drive-system-and-gears">
-<h3>Drive system and gears<a class="headerlink" href="#drive-system-and-gears" title="Permalink to this headline">¶</a></h3>
+<section id="drive-system-and-gears">
+<h3>Drive system and gears<a class="headerlink" href="#drive-system-and-gears" title="Link to this heading">¶</a></h3>
 <p>All bicycles use cogs and a chain to transfer power from the rider to the wheels. This allows the wheels to turn much faster than the rider is pedalling. Bikes with multiple gears have the advantage that they can change the ratio of power transfer, meaning cyclists of different abilities can use them.</p>
 <p>Single speed bikes have the advantage that the cyclist cannot change gear to alter the pedalling speed under high loads. Therefore you can almost guarantee the same power output from each person.</p>
 <p>The ratio of pedalling speed to wheel speed is determined by the ratio of the circumferences of each part. An easy way to calculate this for bike drive systems is to count the teeth on the chainring and cassette. Chainrings (the bit that the pedals are attached to) usually have between 34-50 teeth. Cassettes (the bit that’s on the back wheel) usually have between 12-25 teeth. So the ratio can be between 4.17:1 and 1.36:1.
 This is important for determining the rotational speed of the motor.</p>
 <p>You should be able to get a good second hand road bike for around £100. A bike with a smaller frame is generally better to use with a bike generator - it’s easier for a tall person to use a bike with a small frame than it is for a short person to use one with a large frame. See Resource 1 for bike projects in London.</p>
-</div>
-</div>
-<div class="section" id="motors">
-<h2>Motors<a class="headerlink" href="#motors" title="Permalink to this headline">¶</a></h2>
+</section>
+</section>
+<section id="motors">
+<h2>Motors<a class="headerlink" href="#motors" title="Link to this heading">¶</a></h2>
 <p>We have always used permanent magnet (PM) 24V DC motors in our bicycle generation systems. An electric motor is designed to spin when electricity is passed through it. However, if we use another source of power to spin the motor, the motor will become a dynamo and convert that motion into electrical power. The particular motor we use, which is used a lot of bike generators, is a 24V, 250W scooter motor which is rated at 2750 RPM - part MY 1016 (13.5A) or MY1025 (14A), which you can find on e-bay or other online marketplaces.</p>
 <p>The speed at which the motor is turning (the amount of rotations through 360 degrees undertaken in a set time) normally measured in revolutions per minute (RPM) is directly proportional to (increases and decreases) the voltage output of the pm motor. A motor rated at 2750 RPM and 24V should generate a 12V output when spun at half its rated rotational speed - 1325 RPM.</p>
 <p>Assuming the cyclist maintains a constant pedalling speed, a downhill gear (higher ratio) creates a larger voltage output for the motor than an uphill gear (lower ratio). To maintain the same voltage output when changing gears, the cyclist will need to either increase or decrease their pedalling speed, depending on which gear they change to.</p>
 <p>The torque (rotational force) the cyclist applies to the pedals - normally measured in Newton meters (Nm) - is proportional to the current created by a PM motor. So to generate more current, a cyclist will need to apply more force when pedalling.</p>
-</div>
-<div class="section" id="rollers">
-<h2>Rollers<a class="headerlink" href="#rollers" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="rollers">
+<h2>Rollers<a class="headerlink" href="#rollers" title="Link to this heading">¶</a></h2>
 <p>The roller attaches to the motor and is turned by the back wheel on the bicycle. Working out what type of roller is suitable is mainly determined by the rotational speed needed by the motor and the size of the wheel on the bike. Adult bike wheels usually have an outside diameter of either 700mm or 26 inches (650mm).</p>
 <p>Attaching a roller to the motor can be quite tricky. We have had some 25mm diameter steel rollers custom made for us, that slide over the motor shaft and are secured in place using a grub screw. These can be made in a metal fabrication workshop with the appropriate metalworking tools.</p>
 <p>You might find a larger roller (30mm) works better, since it allows a slightly faster pedalling speed. You can also use 52mm skateboard wheels as rollers, that can be mounted onto the motor using a conversion shaft.</p>
@@ -69,21 +69,21 @@ This is important for determining the rotational speed of the motor.</p>
 <p><strong>Pedalling speed</strong></p>
 <p>Choosing your bicycle, motor and roller, allows you to determine your pedalling speed.</p>
 <p>The force from the pedals will be transferred to the motor through the chainring, rear sprocket, back wheel and roller, with the speed determined by the ratio of circumferences of each. With a low gear ratio of 1.36:1, the overall ratio from motor to pedals will be 35.4:1. To maintain a rotational speed of 1325 RPM at the motor, the pedals will need to be rotated at (1325 $div$ 36.4) 37.5 RPM, or roughly 1 rotation every one and a half seconds, which - while a little on the slow side - is a comfortable pedalling speed.</p>
-<p><img alt="speed" src="_images/image_3_1_(pedalling_speed).png" /></p>
-</div>
-<div class="section" id="training-stands">
-<h2>Training stands<a class="headerlink" href="#training-stands" title="Permalink to this headline">¶</a></h2>
+<p><img alt="speed" src="_images/image_3_1_%28pedalling_speed%29.png" /></p>
+</section>
+<section id="training-stands">
+<h2>Training stands<a class="headerlink" href="#training-stands" title="Link to this heading">¶</a></h2>
 <p>We use a training stand (turbo trainer) as a frame for our generator. These can be bought new or second hand from ebay.</p>
 <p>The important thing to look for on a training stand is the tensioning system, which usually holds the resistance roller that is used to provide friction when pedalling. Good ones to look for have the resistance roller mounted on a small metal plate. Removing the resistance roller provides an easy and convenient point to attach the motor and generator assembly onto the training stand. Minoura are a good brand to look for when buying training stands, but other less expensive options exist.</p>
 <p>These training stands tend to fit better on bikes with quick-release rear axles, so if you have a bike that will be used regularly with the bike generator consider fitting one.</p>
 <p>You could, if you were so inclined, design and build your own bespoke frame and tensioning system, and it’s several examples of bike generator projects using custom stands can be found online to refer to if you want to go down that route, but that approach is not going to be covered in this guide.</p>
-<p><img alt="stands" src="_images/image_3_2_(training_stands).png" /></p>
-</div>
-<div class="section" id="voltage-control">
-<h2>Voltage control<a class="headerlink" href="#voltage-control" title="Permalink to this headline">¶</a></h2>
+<p><img alt="stands" src="_images/image_3_2_%28training_stands%29.png" /></p>
+</section>
+<section id="voltage-control">
+<h2>Voltage control<a class="headerlink" href="#voltage-control" title="Link to this heading">¶</a></h2>
 <p>The electrical output from a bike generator with a DC motor tends to be highly variable, since most people do not maintain a constant pedalling speed when cycling. The faster the cyclist pedals, the higher the voltage generated, and there is a tendency for people using bike generators to pedal faster than is needed. There are a number of options for smoothing and controlling the electricity from a bike generator system.</p>
-<div class="section" id="voltage-regulator-option">
-<h3>Voltage Regulator Option<a class="headerlink" href="#voltage-regulator-option" title="Permalink to this headline">¶</a></h3>
+<section id="voltage-regulator-option">
+<h3>Voltage Regulator Option<a class="headerlink" href="#voltage-regulator-option" title="Link to this heading">¶</a></h3>
 <p>This option uses a step-down DC to DC Converter to reduce the voltage down to a specified value. The converter can only produce a voltage lower than that supplied to it. So, if you require an output voltage of 12V then the regulator will need to be supplied with a voltage constantly greater than 12V in order to work. The voltage created by the motor in our system is directly proportional to its rotational speed. In order to create a voltage constantly higher than 12V the motor must rotate at a speed of at least 1325 RPM. How fast the motor rotates depend on:</p>
 <ul class="simple">
 <li><p>the speed the cyclist is pedalling (faster = greater motor rpm)</p></li>
@@ -95,34 +95,34 @@ This is important for determining the rotational speed of the motor.</p>
 <li><p>the power is being generated at a voltage that is too low (the motor isn’t spinning fast enough)</p></li>
 <li><p>the cyclist is not capable of powering the device you are attempting to power (for a device with variable power levels, this may be monetary - e.g. big bass notes on a sound system)</p></li>
 </ul>
-</div>
-<div class="section" id="capacitor-option">
-<h3>Capacitor option<a class="headerlink" href="#capacitor-option" title="Permalink to this headline">¶</a></h3>
-<p><img alt="capacitor 1" src="_images/image_3_3_(capacitor_1).png" />
-<img alt="capacitor 2" src="_images/image_3_4_(capacitor_2).png" /></p>
+</section>
+<section id="capacitor-option">
+<h3>Capacitor option<a class="headerlink" href="#capacitor-option" title="Link to this heading">¶</a></h3>
+<p><img alt="capacitor 1" src="_images/image_3_3_%28capacitor_1%29.png" />
+<img alt="capacitor 2" src="_images/image_3_4_%28capacitor_2%29.png" /></p>
 <p>TODO ADD BOX</p>
 <p>This option uses a very large capacitor, sometimes called a supercapacitor or power capacitor. A capacitor connected in parallel can be used to smooth the variable output voltage from a bike generator, and has the added benefit of providing a short-term energy store to handle load surges. A capacitance of 2 Farad or greater should be adequate for a single generator. Power capacitors which are designed to provide extra bass in a car audio system usually come with a handy voltage display, and can work well in this kind of system.</p>
 <p>Safety note: The types of supercapacitors used in bike generator systems are capable of storing a lot of energy. Because capacitors have zero internal resistance, if a short circuit is created across the positive and negative terminals, all the energy stored in the capacitor will be released at once. This will create a lot of heat, which can cause burns or start fires, and the capacitor itself might explode. This risk is present in even partially charged capacitors, so always make sure to completely discharge a capacitor using a resistor or load before working with it, and after using it.</p>
 <p>A capacitor’s voltage will correspond to the voltage output from the motor, with a smoothing effect on any variation in output that will be more pronounced with a bigger capacitor. If a cyclist is trying to maintain a 12V power supply, they will need to keep an eye on the voltage across the capacitor and adjust their pedalling speed or gear to keep the voltage steady.</p>
 <p>It is possible to over charge a capacitor by applying a high voltage to it. If using an unprotected capacitor you will want to include either a step-down converter or charge controller to limit the voltage going into the capacitor and prevent it from being overcharged should someone decide to pedal very fast.</p>
-</div>
-<div class="section" id="lead-acid-battery-option">
-<h3>Lead Acid Battery Option<a class="headerlink" href="#lead-acid-battery-option" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="lead-acid-battery-option">
+<h3>Lead Acid Battery Option<a class="headerlink" href="#lead-acid-battery-option" title="Link to this heading">¶</a></h3>
 <p>In the same way that a capacitor can smooth the voltage output from the motor, a battery can do the same with the added benefit of providing long term energy storage.</p>
 <p>As with capacitors, it is possible to over charge the battery which can result in ‘battery fizz’ - an excess of hydrogen gas. For a 12v lead acid battery the voltage across the terminals should be kept between 12 and 14.5 volts. Batteries with larger capacities are more effective for this purpose - small batteries can be charged or discharged much faster, which can result in fluctuating voltages.</p>
 <p>This option has the potential to quickly ruin a lead acid battery, so you might want to avoid using a high quality expensive battery for this purpose.</p>
 <p>If you want to protect the battery while it is connected to a bike generator, you can use a charge controller. A charge controller monitors the voltage across the battery to ensure that it isn’t too high or that the battery doesn’t become overcharged. You should use a charge controller designed for wind turbines, that will divert power into a dump load when the battery is fully charged. A common charge controller for this is the Morningstar Tristar range. These charge controllers can also be used in combination with a capacitor instead of a battery.</p>
-<p><img alt="Controller" src="_images/image_3_5_(charge_controller).png" /></p>
-</div>
-</div>
-</div>
+<p><img alt="Controller" src="_images/image_3_5_%28charge_controller%29.png" /></p>
+</section>
+</section>
+</section>
 
 
           </div>
           
         </div>
       </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
         <div class="sphinxsidebarwrapper">
 <h1 class="logo"><a href="index.html">DIY Bike Power</a></h1>
 
@@ -133,8 +133,17 @@ This is important for determining the rotational speed of the motor.</p>
 
 
 
-<h3>Navigation</h3>
-<p class="caption"><span class="caption-text">Contents:</span></p>
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="preface.html">Preface</a></li>
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
@@ -163,16 +172,6 @@ This is important for determining the rotational speed of the motor.</p>
   </ul></li>
 </ul>
 </div>
-<div id="searchbox" style="display: none" role="search">
-  <h3 id="searchlabel">Quick search</h3>
-    <div class="searchformwrapper">
-    <form class="search" action="search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" />
-      <input type="submit" value="Go" />
-    </form>
-    </div>
-</div>
-<script>$('#searchbox').show(0);</script>
 
 
 
@@ -186,11 +185,11 @@ This is important for determining the rotational speed of the motor.</p>
       <div class="clearer"></div>
     </div>
     <div class="footer">
-      &copy;2021-2024, Demand Energy Equality.
+      &#169;2021-2025, Demand Energy Equality.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.1</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |
       <a href="_sources/building_a_simple_bike_generator.rst.txt"

@@ -1,18 +1,17 @@
-
 <!DOCTYPE html>
 
-<html>
+<html lang="en" data-content_root="./">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Using multiple bike generators &#8212; DIY Bike Power 1.1 documentation</title>
-    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=56dcb7b8"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Resources" href="resources.html" />
@@ -20,8 +19,9 @@
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
+
   
-  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+  
 
   </head><body>
   
@@ -33,23 +33,23 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="using-multiple-bike-generators">
-<h1>Using multiple bike generators<a class="headerlink" href="#using-multiple-bike-generators" title="Permalink to this headline">¶</a></h1>
+  <section id="using-multiple-bike-generators">
+<h1>Using multiple bike generators<a class="headerlink" href="#using-multiple-bike-generators" title="Link to this heading">¶</a></h1>
 <p>For loads of more than 100W, you will need to build a system that uses more than one bike generator. If multiple bike generators are being used at the same time, their power can be combined via a distribution board, which can contain all the voltage regulation and system protection components.</p>
-<p><img alt="multiple_generator_diagram" src="_images/image_5_1_(multiple_generator_diagram).png" /></p>
-<div class="section" id="cables-and-connectors">
-<h2>Cables and connectors<a class="headerlink" href="#cables-and-connectors" title="Permalink to this headline">¶</a></h2>
+<p><img alt="multiple_generator_diagram" src="_images/image_5_1_%28multiple_generator_diagram%29.png" /></p>
+<section id="cables-and-connectors">
+<h2>Cables and connectors<a class="headerlink" href="#cables-and-connectors" title="Link to this heading">¶</a></h2>
 <p>We use 20A Powercon connectors when connecting the bikes into either a multiple or single bike system. The connectors hold a good connection, can be easily connected and disconnected, and are simple to make yourself. You can also use XT60 connectors as a cheaper option, but they are not as robust or easy to use.</p>
 <p>It’s a good idea to get fairly thick, heavy duty wire for your power cables, especially when dealing with long cables (2m or more). Long runs of thin wire will result in significant energy losses - the smaller the wire diameter, the more it heats up when an electrical current is passed through it, and the more energy is lost. Paired (black &amp; red wires in the same sheath) 4mm 2 (or 2.5mm 2 ) core speaker cable is a good option, which results in a good looking, durable cable.</p>
-<p><img alt="connectors" src="_images/image_5_2_(connectors).png" /></p>
-</div>
-<div class="section" id="inverters">
-<h2>Inverters<a class="headerlink" href="#inverters" title="Permalink to this headline">¶</a></h2>
+<p><img alt="connectors" src="_images/image_5_2_%28connectors%29.png" /></p>
+</section>
+<section id="inverters">
+<h2>Inverters<a class="headerlink" href="#inverters" title="Link to this heading">¶</a></h2>
 <p>If you want to use AC mains powered appliances you will need to use an inverter, which will convert the 12V DC power from your bike generator(s) into 240V AC power. There are two types of inverters: a pure sine wave inverter produces a smooth wave on the AC output, while a modified (or quasi) sine wave produces a stepped square wave. Some devices may not work properly with a modified sine wave inverter.</p>
 <p>Inverters designed to work with 12V batteries will usually work with voltages between 10 and 14 volts, but will work best with a power supply with a voltage of 12-13 volts. If using an inverter, it is highly recommended that you use a large capacitor or battery to maintain a smooth, stable voltage on the power supply to the inverter.</p>
-<p><img alt="inverter" src="_images/image_5_3_(inverter).png" /></p>
-<div class="section" id="an-example-of-a-multi-generator-system-distribution-board">
-<h3>An example of a multi-generator system distribution board<a class="headerlink" href="#an-example-of-a-multi-generator-system-distribution-board" title="Permalink to this headline">¶</a></h3>
+<p><img alt="inverter" src="_images/image_5_3_%28inverter%29.png" /></p>
+<section id="an-example-of-a-multi-generator-system-distribution-board">
+<h3>An example of a multi-generator system distribution board<a class="headerlink" href="#an-example-of-a-multi-generator-system-distribution-board" title="Link to this heading">¶</a></h3>
 <p>The image to the right shows a distribution board for a bike generator system built by <a class="reference external" href="https://www.electricpedals.com/">Electric Pedals</a>.</p>
 <p>It has five blue powercon inputs linked together with bus bars to connect up to five bike generators in parallel.</p>
 <p>It uses a Maxwell supercapacitor to smooth the power output and provide some energy storage.</p>
@@ -58,18 +58,18 @@
 <p>Fuses from the power input and to the inverter protect the system against over-current.</p>
 <p>A system like this can be used with unregulated generators, so the power would come directly from the motors without needing to go through a voltage converter.</p>
 <p>More information on the components used in this system (inverters, fuses, charge controllers, etc) can be found in our <a class="reference external" href="https://www.demandenergyequality.org/get-started-with-offgrid">Intro to DIY Off Grid Systems</a> guide.</p>
-<p><img alt="example_board" src="_images/image_5_4_(example_board).png" /></p>
-<p><img alt="example_diagram" src="_images/image_5_5_(example_diagram).png" /></p>
-</div>
-</div>
-</div>
+<p><img alt="example_board" src="_images/image_5_4_%28example_board%29.png" /></p>
+<p><img alt="example_diagram" src="_images/image_5_5_%28example_diagram%29.png" /></p>
+</section>
+</section>
+</section>
 
 
           </div>
           
         </div>
       </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
         <div class="sphinxsidebarwrapper">
 <h1 class="logo"><a href="index.html">DIY Bike Power</a></h1>
 
@@ -80,8 +80,17 @@
 
 
 
-<h3>Navigation</h3>
-<p class="caption"><span class="caption-text">Contents:</span></p>
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="preface.html">Preface</a></li>
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
@@ -106,16 +115,6 @@
   </ul></li>
 </ul>
 </div>
-<div id="searchbox" style="display: none" role="search">
-  <h3 id="searchlabel">Quick search</h3>
-    <div class="searchformwrapper">
-    <form class="search" action="search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" />
-      <input type="submit" value="Go" />
-    </form>
-    </div>
-</div>
-<script>$('#searchbox').show(0);</script>
 
 
 
@@ -129,11 +128,11 @@
       <div class="clearer"></div>
     </div>
     <div class="footer">
-      &copy;2021-2024, Demand Energy Equality.
+      &#169;2021-2025, Demand Energy Equality.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.1</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |
       <a href="_sources/using_multiple_bike_generators.rst.txt"
